@@ -37,3 +37,4 @@ ENV PYTHONUNBUFFERED=1
 # Add wger user
 RUN deluser ubuntu
 RUN adduser wger --uid 1000 --disabled-password --gecos ""
+ENV LC_ALL=en_US.UTF-8.0
